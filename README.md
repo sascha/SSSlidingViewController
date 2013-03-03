@@ -7,9 +7,18 @@ It comes with three classes:
 - `SSNavigationTableViewController`
 - `SSSlidingNavigationController`
 
-`SSSlidingViewController` should be your root view controller. Use `- (void)setLeftViewController:` and `- (void)setRootViewController:` to set the left view controller and the root view controller. The left view controller should be an instance of `SSNavigationTableViewController` while the root view controller should be an instance of `SSSlidingNavigationController`, which can contain any kind of other view controller. `SSNavigationTableViewController` uses storyboard identifiers to initialize new view controllers.
+`SSSlidingViewController` should be your root view controller. 
+Use `- (void)setLeftViewController:` and `- (void)setRootViewController:` to set the left view controller and the root view controller. 
+
+The left view controller should be an instance of `SSNavigationTableViewController` while the root view controller should be an instance of `SSSlidingNavigationController`, which can contain any kind of other view controller.
+ 
+`SSNavigationTableViewController` uses storyboard identifiers to initialize new view controllers.
 
 A sample Xcode project is available in the Examples directory.
+
+## Preview
+
+
 
 ## License 
 
