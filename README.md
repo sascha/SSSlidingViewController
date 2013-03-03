@@ -19,6 +19,8 @@ A sample Xcode project is available in the Examples directory.
 ## Screenshots
 
 ![Left side hidden](https://raw.github.com/sascha/SSSlidingViewController/screenshots/screenshots/screenshot1.png)
+
+
 ![Left side visible](https://raw.github.com/sascha/SSSlidingViewController/screenshots/screenshots/screenshot2.png)
 
 
