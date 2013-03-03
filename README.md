@@ -16,8 +16,10 @@ The left view controller should be an instance of `SSNavigationTableViewControll
 
 A sample Xcode project is available in the Examples directory.
 
-## Preview
+## Screenshots
 
+![Left side hidden](https://raw.github.com/sascha/SSSlidingViewController/screenshots/screenshots/screenshot1.png)
+![Left side visible](https://raw.github.com/sascha/SSSlidingViewController/screenshots/screenshots/screenshot2.png)
 
 
 ## License 
