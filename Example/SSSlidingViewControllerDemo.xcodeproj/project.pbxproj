@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1CFCB016E3E83400A87318 /* SSNavigationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CFCAB16E3E83400A87318 /* SSNavigationTableViewController.m */; };
+		2B1CFCB116E3E83400A87318 /* SSSlidingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CFCAD16E3E83400A87318 /* SSSlidingNavigationController.m */; };
+		2B1CFCB216E3E83400A87318 /* SSSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CFCAF16E3E83400A87318 /* SSSlidingViewController.m */; };
+		2BA75A0216E3DB11002D29E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA75A0116E3DB11002D29E1 /* UIKit.framework */; };
+		2BA75A0416E3DB11002D29E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA75A0316E3DB11002D29E1 /* Foundation.framework */; };
+		2BA75A0616E3DB11002D29E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA75A0516E3DB11002D29E1 /* CoreGraphics.framework */; };
+		2BA75A0C16E3DB11002D29E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A0A16E3DB11002D29E1 /* InfoPlist.strings */; };
+		2BA75A0E16E3DB11002D29E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA75A0D16E3DB11002D29E1 /* main.m */; };
+		2BA75A1216E3DB11002D29E1 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA75A1116E3DB11002D29E1 /* SSAppDelegate.m */; };
+		2BA75A1416E3DB11002D29E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A1316E3DB11002D29E1 /* Default.png */; };
+		2BA75A1616E3DB11002D29E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A1516E3DB11002D29E1 /* Default@2x.png */; };
+		2BA75A1816E3DB11002D29E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A1716E3DB11002D29E1 /* Default-568h@2x.png */; };
+		2BA75A1B16E3DB11002D29E1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A1916E3DB11002D29E1 /* MainStoryboard_iPhone.storyboard */; };
+		2BA75A1E16E3DB11002D29E1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A1C16E3DB11002D29E1 /* MainStoryboard_iPad.storyboard */; };
+		2BA75A3716E3E194002D29E1 /* shadowDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A3516E3E194002D29E1 /* shadowDivider.png */; };
+		2BA75A3816E3E194002D29E1 /* shadowDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA75A3616E3E194002D29E1 /* shadowDivider@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B1CFCAA16E3E83400A87318 /* SSNavigationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSNavigationTableViewController.h; path = ../../SSSlidingViewController/SSNavigationTableViewController.h; sourceTree = "<group>"; };
+		2B1CFCAB16E3E83400A87318 /* SSNavigationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSNavigationTableViewController.m; path = ../../SSSlidingViewController/SSNavigationTableViewController.m; sourceTree = "<group>"; };
+		2B1CFCAC16E3E83400A87318 /* SSSlidingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSSlidingNavigationController.h; path = ../../SSSlidingViewController/SSSlidingNavigationController.h; sourceTree = "<group>"; };
+		2B1CFCAD16E3E83400A87318 /* SSSlidingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSSlidingNavigationController.m; path = ../../SSSlidingViewController/SSSlidingNavigationController.m; sourceTree = "<group>"; };
+		2B1CFCAE16E3E83400A87318 /* SSSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSSlidingViewController.h; path = ../../SSSlidingViewController/SSSlidingViewController.h; sourceTree = "<group>"; };
+		2B1CFCAF16E3E83400A87318 /* SSSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSSlidingViewController.m; path = ../../SSSlidingViewController/SSSlidingViewController.m; sourceTree = "<group>"; };
+		2BA759FE16E3DB11002D29E1 /* SSSlidingViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSlidingViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA75A0116E3DB11002D29E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BA75A0316E3DB11002D29E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BA75A0516E3DB11002D29E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BA75A0916E3DB11002D29E1 /* SSSlidingViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSlidingViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		2BA75A0B16E3DB11002D29E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA75A0D16E3DB11002D29E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA75A0F16E3DB11002D29E1 /* SSSlidingViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSSlidingViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2BA75A1016E3DB11002D29E1 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		2BA75A1116E3DB11002D29E1 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		2BA75A1316E3DB11002D29E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2BA75A1516E3DB11002D29E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2BA75A1716E3DB11002D29E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2BA75A1A16E3DB11002D29E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2BA75A1D16E3DB11002D29E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2BA75A3516E3E194002D29E1 /* shadowDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadowDivider.png; sourceTree = "<group>"; };
+		2BA75A3616E3E194002D29E1 /* shadowDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadowDivider@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA759FB16E3DB11002D29E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA75A0216E3DB11002D29E1 /* UIKit.framework in Frameworks */,
+				2BA75A0416E3DB11002D29E1 /* Foundation.framework in Frameworks */,
+				2BA75A0616E3DB11002D29E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA759F516E3DB11002D29E1 = {
+			isa = PBXGroup;
+			children = (
+				2BA75A0716E3DB11002D29E1 /* SSSlidingViewControllerDemo */,
+				2BA75A0016E3DB11002D29E1 /* Frameworks */,
+				2BA759FF16E3DB11002D29E1 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		2BA759FF16E3DB11002D29E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA759FE16E3DB11002D29E1 /* SSSlidingViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA75A0016E3DB11002D29E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA75A0116E3DB11002D29E1 /* UIKit.framework */,
+				2BA75A0316E3DB11002D29E1 /* Foundation.framework */,
+				2BA75A0516E3DB11002D29E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA75A0716E3DB11002D29E1 /* SSSlidingViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BA75A2716E3DB24002D29E1 /* Application */,
+				2BA75A2816E3DB2C002D29E1 /* View Controllers */,
+				2BA75A2A16E3DB40002D29E1 /* Storyboards */,
+				2BA75A3416E3E18B002D29E1 /* Images */,
+				2BA75A0816E3DB11002D29E1 /* Supporting Files */,
+			);
+			path = SSSlidingViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		2BA75A0816E3DB11002D29E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA75A0916E3DB11002D29E1 /* SSSlidingViewControllerDemo-Info.plist */,
+				2BA75A0A16E3DB11002D29E1 /* InfoPlist.strings */,
+				2BA75A0D16E3DB11002D29E1 /* main.m */,
+				2BA75A0F16E3DB11002D29E1 /* SSSlidingViewControllerDemo-Prefix.pch */,
+				2BA75A1316E3DB11002D29E1 /* Default.png */,
+				2BA75A1516E3DB11002D29E1 /* Default@2x.png */,
+				2BA75A1716E3DB11002D29E1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA75A2716E3DB24002D29E1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2BA75A1016E3DB11002D29E1 /* SSAppDelegate.h */,
+				2BA75A1116E3DB11002D29E1 /* SSAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		2BA75A2816E3DB2C002D29E1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BA75A2916E3DB37002D29E1 /* SSSlidingViewController */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2BA75A2916E3DB37002D29E1 /* SSSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B1CFCAA16E3E83400A87318 /* SSNavigationTableViewController.h */,
+				2B1CFCAB16E3E83400A87318 /* SSNavigationTableViewController.m */,
+				2B1CFCAC16E3E83400A87318 /* SSSlidingNavigationController.h */,
+				2B1CFCAD16E3E83400A87318 /* SSSlidingNavigationController.m */,
+				2B1CFCAE16E3E83400A87318 /* SSSlidingViewController.h */,
+				2B1CFCAF16E3E83400A87318 /* SSSlidingViewController.m */,
+			);
+			name = SSSlidingViewController;
+			sourceTree = "<group>";
+		};
+		2BA75A2A16E3DB40002D29E1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2BA75A1916E3DB11002D29E1 /* MainStoryboard_iPhone.storyboard */,
+				2BA75A1C16E3DB11002D29E1 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2BA75A3416E3E18B002D29E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2BA75A3516E3E194002D29E1 /* shadowDivider.png */,
+				2BA75A3616E3E194002D29E1 /* shadowDivider@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA759FD16E3DB11002D29E1 /* SSSlidingViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA75A2416E3DB11002D29E1 /* Build configuration list for PBXNativeTarget "SSSlidingViewControllerDemo" */;
+			buildPhases = (
+				2BA759FA16E3DB11002D29E1 /* Sources */,
+				2BA759FB16E3DB11002D29E1 /* Frameworks */,
+				2BA759FC16E3DB11002D29E1 /* Resources */,
+				A543A805705F4C7DBCFE1D24 /* Warn for TODO and FIXME comments */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSlidingViewControllerDemo;
+			productName = SSSlidingViewControllerDemo;
+			productReference = 2BA759FE16E3DB11002D29E1 /* SSSlidingViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA759F616E3DB11002D29E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sascha Schwabbauer";
+			};
+			buildConfigurationList = 2BA759F916E3DB11002D29E1 /* Build configuration list for PBXProject "SSSlidingViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BA759F516E3DB11002D29E1;
+			productRefGroup = 2BA759FF16E3DB11002D29E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA759FD16E3DB11002D29E1 /* SSSlidingViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA759FC16E3DB11002D29E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA75A0C16E3DB11002D29E1 /* InfoPlist.strings in Resources */,
+				2BA75A1416E3DB11002D29E1 /* Default.png in Resources */,
+				2BA75A1616E3DB11002D29E1 /* Default@2x.png in Resources */,
+				2BA75A1816E3DB11002D29E1 /* Default-568h@2x.png in Resources */,
+				2BA75A1B16E3DB11002D29E1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2BA75A1E16E3DB11002D29E1 /* MainStoryboard_iPad.storyboard in Resources */,
+				2BA75A3716E3E194002D29E1 /* shadowDivider.png in Resources */,
+				2BA75A3816E3E194002D29E1 /* shadowDivider@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A543A805705F4C7DBCFE1D24 /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA759FA16E3DB11002D29E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA75A0E16E3DB11002D29E1 /* main.m in Sources */,
+				2BA75A1216E3DB11002D29E1 /* SSAppDelegate.m in Sources */,
+				2B1CFCB016E3E83400A87318 /* SSNavigationTableViewController.m in Sources */,
+				2B1CFCB116E3E83400A87318 /* SSSlidingNavigationController.m in Sources */,
+				2B1CFCB216E3E83400A87318 /* SSSlidingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BA75A0A16E3DB11002D29E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA75A0B16E3DB11002D29E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BA75A1916E3DB11002D29E1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA75A1A16E3DB11002D29E1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA75A1C16E3DB11002D29E1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA75A1D16E3DB11002D29E1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA75A2216E3DB11002D29E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BA75A2316E3DB11002D29E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA75A2516E3DB11002D29E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSlidingViewControllerDemo/SSSlidingViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "SSSlidingViewControllerDemo/SSSlidingViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = SSSlidingViewControllerDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BA75A2616E3DB11002D29E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSlidingViewControllerDemo/SSSlidingViewControllerDemo-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "SSSlidingViewControllerDemo/SSSlidingViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = SSSlidingViewControllerDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA759F916E3DB11002D29E1 /* Build configuration list for PBXProject "SSSlidingViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA75A2216E3DB11002D29E1 /* Debug */,
+				2BA75A2316E3DB11002D29E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA75A2416E3DB11002D29E1 /* Build configuration list for PBXNativeTarget "SSSlidingViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA75A2516E3DB11002D29E1 /* Debug */,
+				2BA75A2616E3DB11002D29E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA759F616E3DB11002D29E1 /* Project object */;
+}
